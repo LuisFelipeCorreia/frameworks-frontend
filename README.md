@@ -39,7 +39,7 @@ Cada pasta representa uma aula e contém um resumo em Markdown (`.md`) com os pr
 | # | Aula | Projeto | Repositório | Deploy | Tecnologia |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 01 | Aula 01 | `vanilla-js` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/vanilla-js) | [🌐 Ver online](https://vanilla-js-psi.vercel.app) | HTML / CSS / JavaScript |
-| 02 | Aula 02 | `projeto-react` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-react) | [🌐 Ver online](#) | React |
+| 02 | Aula 02 | `projeto-react` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-react) | [🌐 Ver online](https://projeto-react-eight-alpha.vercel.app) | React |
 | 03 | Aula 03 | `tema-react` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/tema-react) | [🌐 Ver online](#) | React |
 | 04 | Aula 03 | `tema-vue` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/tema-vue) | [🌐 Ver online](#) | Vue |
 | 05 | Aula 03 | `tema-angular` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/tema-angular) | [🌐 Ver online](#) | Angular |
