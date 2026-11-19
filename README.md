@@ -20,3 +20,57 @@ frameworks-frontend/
 ├── Aula 08 - Projeto React/
 ├── Aula 09 - Projeto React/
 └── README.md
+```
+
+Cada pasta representa uma aula e contém um resumo em Markdown (`.md`) com os principais conceitos abordados, além das documentações e entregas solicitadas.
+
+##  Conteúdo
+
+*  Resumos das aulas
+*  Conceitos e definições importantes
+*  Exemplos de código
+*  Boas práticas de desenvolvimento
+*  Materiais e referências complementares
+
+##  Projetos da Disciplina
+
+> Repositórios dos projetos práticos desenvolvidos ao longo da matéria.
+
+| # | Aula | Projeto | Repositório | Deploy | Tecnologia |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 01 | Aula 01 | `vanilla-js` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/vanilla-js) | [🌐 Ver online](https://vanilla-js-psi.vercel.app) | HTML / CSS / JavaScript |
+| 02 | Aula 02 | `projeto-react` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-react) | [🌐 Ver online](#) | React |
+| 03 | Aula 03 | `tema-react` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/tema-react) | [🌐 Ver online](#) | React |
+| 04 | Aula 03 | `tema-vue` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/tema-vue) | [🌐 Ver online](#) | Vue |
+| 05 | Aula 03 | `tema-angular` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/tema-angular) | [🌐 Ver online](#) | Angular |
+| 06 | Aula 03 | `tema-nextjs` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/tema-nextjs) | [🌐 Ver online](#) | Next.js |
+| 07 | Aula 04 | `projetos-api-clones` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projetos-api-clones) | Diversos projetos | Multi-frameworks |
+| 08 | Aula 04 | `api-data-hora` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/api-data-hora) | [🌐 Ver online](#) | Express / Node.js + Front |
+| 09 | Aula 05 | `projeto-notas-back` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-notas-back) | [🌐 Ver online](#) | Express / Node.js |
+| 10 | Aula 05 | `front-notas` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/front-notas) | [🌐 Ver online](#) | React |
+| 11 | Aula 06 | `Sem projeto (Planejamento)` | - | - | Gestão Ágil / Kanban |
+| 12 | Aula 07 | `projeto-css` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-css) | [🌐 Ver online](#) | HTML / CSS |
+| 13 | Aula 07 | `projeto-tailwind` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-tailwind) | [🌐 Ver online](#) | HTML / Tailwind CSS |
+| 14 | Aula 08 | `projeto-react-01` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-react-01) | [🌐 Ver online](#) | React |
+| 15 | Aula 09 | `projeto-react-02` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-react-02) | [🌐 Ver online](#) | React |
+
+##  Tecnologias
+
+* HTML
+* CSS
+* Tailwind CSS
+* JavaScript
+* React
+* Vue
+* Angular
+* Next.js
+* Node.js (Express)
+* Git & GitHub
+
+##  Disciplina
+
+Frameworks Front-end — SENAI
+
+##  Objetivo Final
+
+Consolidar meus conhecimentos em front-end, criando um repositório organizado que sirva como material de consulta para estudos, projetos e futuras oportunidades profissionais.
