@@ -1,0 +1,121 @@
+{
+  "info": {
+    "_postman_id": "a5f1c2d0-2026-4b8a-9e10-crudnotas0005",
+    "name": "API CRUD de Notas — Aula 05 (SENAI)",
+    "description": "Coleção oficial documentando os endpoints RESTful (CREATE, READ, UPDATE, DELETE) da API de Notas desenvolvida em Node.js + Express com persistência em JSON.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://projeto-notas-back.vercel.app",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "1. READ — Listar todas as notas",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/notas",
+          "host": ["{{baseUrl}}"],
+          "path": ["notas"]
+        },
+        "description": "Retorna a lista completa de notas armazenadas no arquivo notas.json.\n\n**Parâmetros:** Nenhum.\n\n**Códigos de Resposta:**\n- `200 OK`: Array JSON com todas as notas cadastradas."
+      }
+    },
+    {
+      "name": "2. READ — Buscar nota por ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/notas/:id",
+          "host": ["{{baseUrl}}"],
+          "path": ["notas", ":id"],
+          "variable": [
+            {
+              "key": "id",
+              "value": "1",
+              "description": "ID numérico único da nota a ser consultada."
+            }
+          ]
+        },
+        "description": "Busca uma nota específica pelo seu identificador numérico.\n\n**Parâmetro de Rota (Path Param):**\n- `id` (number, obrigatório): Identificador da nota.\n\n**Códigos de Resposta:**\n- `200 OK`: Objeto JSON da nota encontrada.\n- `404 Not Found`: `{ \"erro\": \"Nota não encontrada.\" }`"
+      }
+    },
+    {
+      "name": "3. CREATE — Criar nova nota",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"titulo\": \"Estudar React Router\",\n  \"conteudo\": \"Implementar rotas dinâmicas com useParams na Aula 09.\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/notas",
+          "host": ["{{baseUrl}}"],
+          "path": ["notas"]
+        },
+        "description": "Cria uma nova nota e persiste no arquivo notas.json.\n\n**Corpo da Requisição (JSON Body):**\n- `titulo` (string, obrigatório): Título da nota.\n- `conteudo` (string, obrigatório): Texto descritivo da nota.\n\n**Códigos de Resposta:**\n- `201 Created`: Nota criada com sucesso (retorna objeto com `id` e `criadoEm`).\n- `400 Bad Request`: `{ \"erro\": \"Os campos titulo e conteudo são obrigatórios.\" }`"
+      }
+    },
+    {
+      "name": "4. UPDATE — Atualizar nota existente",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"titulo\": \"Revisar Hooks do React (Atualizado)\",\n  \"conteudo\": \"Praticar useState, useEffect e integração CRUD concluída.\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/notas/:id",
+          "host": ["{{baseUrl}}"],
+          "path": ["notas", ":id"],
+          "variable": [
+            {
+              "key": "id",
+              "value": "1",
+              "description": "ID numérico da nota que será atualizada."
+            }
+          ]
+        },
+        "description": "Atualiza o título e o conteúdo de uma nota existente.\n\n**Parâmetro de Rota (Path Param):**\n- `id` (number, obrigatório): Identificador da nota.\n\n**Corpo da Requisição (JSON Body):**\n- `titulo` (string, obrigatório): Novo título.\n- `conteudo` (string, obrigatório): Novo conteúdo.\n\n**Códigos de Resposta:**\n- `200 OK`: Objeto JSON atualizado com `atualizadoEm`.\n- `400 Bad Request`: Campos obrigatórios ausentes.\n- `404 Not Found`: Nota não encontrada."
+      }
+    },
+    {
+      "name": "5. DELETE — Remover nota",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/notas/:id",
+          "host": ["{{baseUrl}}"],
+          "path": ["notas", ":id"],
+          "variable": [
+            {
+              "key": "id",
+              "value": "2",
+              "description": "ID numérico da nota a ser excluída."
+            }
+          ]
+        },
+        "description": "Remove permanentemente uma nota do arquivo notas.json.\n\n**Parâmetro de Rota (Path Param):**\n- `id` (number, obrigatório): Identificador da nota.\n\n**Códigos de Resposta:**\n- `200 OK`: `{ \"mensagem\": \"Nota removida com sucesso.\", \"nota\": { ... } }`\n- `404 Not Found`: `{ \"erro\": \"Nota não encontrada.\" }`"
+      }
+    }
+  ]
+}

@@ -47,8 +47,8 @@ Cada pasta representa uma aula e contém um resumo em Markdown (`.md`) com os pr
 | 07 | Aula 03 | `projeto-clone` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-clone) | Clone com histórico | React |
 | 08 | Aula 04 | `projetos-api-clones` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projetos-api-clones) | Diversos projetos | Multi-frameworks |
 | 09 | Aula 04 | `api-data-hora` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/api-data-hora) | [🌐 Ver online](https://api-data-hora-frontend.vercel.app) | Express / Node.js + Front |
-| 10 | Aula 05 | `projeto-notas-back` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-notas-back) | [🌐 Ver online](#) | Express / Node.js |
-| 11 | Aula 05 | `front-notas` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/front-notas) | [🌐 Ver online](#) | React |
+| 10 | Aula 05 | `projeto-notas-back` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-notas-back) | [🌐 Ver online](https://projeto-notas-back.vercel.app) | Express / Node.js |
+| 11 | Aula 05 | `front-notas` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/front-notas) | [🌐 Ver online](https://front-notas-hazel.vercel.app) | React |
 | 12 | Aula 06 | `Sem projeto (Planejamento)` | - | - | Gestão Ágil / Kanban |
 | 13 | Aula 07 | `projeto-css` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-css) | [🌐 Ver online](#) | HTML / CSS |
 | 14 | Aula 07 | `projeto-tailwind` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-tailwind) | [🌐 Ver online](#) | HTML / Tailwind CSS |
