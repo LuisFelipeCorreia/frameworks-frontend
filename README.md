@@ -46,7 +46,7 @@ Cada pasta representa uma aula e contém um resumo em Markdown (`.md`) com os pr
 | 06 | Aula 03 | `tema-nextjs` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/tema-nextjs) | [🌐 Ver online](https://tema-nextjs.vercel.app) | Next.js |
 | 07 | Aula 03 | `projeto-clone` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-clone) | Clone com histórico | React |
 | 08 | Aula 04 | `projetos-api-clones` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projetos-api-clones) | Diversos projetos | Multi-frameworks |
-| 09 | Aula 04 | `api-data-hora` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/api-data-hora) | [🌐 Ver online](#) | Express / Node.js + Front |
+| 09 | Aula 04 | `api-data-hora` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/api-data-hora) | [🌐 Ver online](https://api-data-hora-frontend.vercel.app) | Express / Node.js + Front |
 | 10 | Aula 05 | `projeto-notas-back` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-notas-back) | [🌐 Ver online](#) | Express / Node.js |
 | 11 | Aula 05 | `front-notas` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/front-notas) | [🌐 Ver online](#) | React |
 | 12 | Aula 06 | `Sem projeto (Planejamento)` | - | - | Gestão Ágil / Kanban |
