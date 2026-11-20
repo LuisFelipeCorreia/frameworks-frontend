@@ -50,8 +50,8 @@ Cada pasta representa uma aula e contém um resumo em Markdown (`.md`) com os pr
 | 10 | Aula 05 | `projeto-notas-back` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-notas-back) | [🌐 Ver online](https://projeto-notas-back.vercel.app) | Express / Node.js |
 | 11 | Aula 05 | `front-notas` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/front-notas) | [🌐 Ver online](https://front-notas-hazel.vercel.app) | React |
 | 12 | Aula 06 | `Sem projeto (Planejamento)` | - | - | Gestão Ágil / Kanban |
-| 13 | Aula 07 | `projeto-css` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-css) | [🌐 Ver online](#) | HTML / CSS |
-| 14 | Aula 07 | `projeto-tailwind` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-tailwind) | [🌐 Ver online](#) | HTML / Tailwind CSS |
+| 13 | Aula 07 | `projeto-css` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-css) | [🌐 Ver online](https://projeto-css-sable.vercel.app) | HTML / CSS |
+| 14 | Aula 07 | `projeto-tailwind` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-tailwind) | [🌐 Ver online](https://projeto-tailwind-three.vercel.app) | HTML / Tailwind CSS |
 | 15 | Aula 08 | `projeto-react-01` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-react-01) | [🌐 Ver online](#) | React |
 | 16 | Aula 09 | `projeto-react-02` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-react-02) | [🌐 Ver online](#) | React |
 
