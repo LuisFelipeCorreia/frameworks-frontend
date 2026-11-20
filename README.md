@@ -52,7 +52,7 @@ Cada pasta representa uma aula e contém um resumo em Markdown (`.md`) com os pr
 | 12 | Aula 06 | `Sem projeto (Planejamento)` | - | - | Gestão Ágil / Kanban |
 | 13 | Aula 07 | `projeto-css` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-css) | [🌐 Ver online](https://projeto-css-sable.vercel.app) | HTML / CSS |
 | 14 | Aula 07 | `projeto-tailwind` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-tailwind) | [🌐 Ver online](https://projeto-tailwind-three.vercel.app) | HTML / Tailwind CSS |
-| 15 | Aula 08 | `projeto-react-01` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-react-01) | [🌐 Ver online](#) | React |
+| 15 | Aula 08 | `projeto-react-01` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-react-01) | [🌐 Ver online](https://projeto-react-01-rho.vercel.app) | React |
 | 16 | Aula 09 | `projeto-react-02` | [🔗 Repositório](https://github.com/LuisFelipeCorreia/projeto-react-02) | [🌐 Ver online](#) | React |
 
 ##  Tecnologias
